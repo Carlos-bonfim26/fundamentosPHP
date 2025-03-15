@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5B7B7A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+}
+.container-main h1{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    color: #F0F4EF;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.form{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #3C887E;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0 0 1rem 0.1rem #333;
+    border-radius: 0.5rem;
+    color: #F0F4EF;
+    text-align: justify;
+}
+.inputText{
+    border-radius: 0.4rem;
+    border:none;
+    outline: none;
+    padding: 0.1rem 0.4rem;
+    height: 1.8rem;
+}
+
+.btnSubmit{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: #F0F4EF;
+    background-color: #FFA552;
+    transition: ease-in 0.2s;
+}
+.btnSubmit:hover{
+    background-color: #ff8e24;
+}
+
+.headerCad{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    color: #F0F4EF;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.mainCad p{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+  
+}
+.mainCad p a{
+    font-size: 1rem;
+    color: #FFA552;
+    text-align: justify;
+}
