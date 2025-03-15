@@ -14,10 +14,15 @@
     <div class="container">
         <div class="resultado">
             <?php
-            $sorteio = rand(1, 100);
+            $sorteio = mt_rand(1, 100);
             echo "<p> O número sorteado foi: $sorteio</p>";
             ?>
         </div>
     </div>
 </body>
 </html>
+
+<!-- o rand é mais antigo e ultrapassado -->
+ <!-- o mt_rand é mais utilizado, mas sendo praticamente um apontamento para rand -->
+
+ <!-- o random_int é mais seguro por ser criptografado, mas ele é mais lento também -->
