@@ -22,8 +22,9 @@
             $numReal = floor($numFloat);
             $sobra = $numFloat - $numReal;
           
-            echo "<p> O número real digitado foi $numReal</p>";
-            echo "<p> a sobra do número é $sobra </p>";
+            echo "<p> O número real de ". number_format($numFloat,3, ",", ".")."  foi $numReal Real</p>";
+
+            echo "<p> a sobra do número é ". number_format($sobra,3, ",",".") ."</p>";
     
             echo "<a href='index.html'>Voltar aqui</a>";} catch (Exception $e){
                 echo "<p>Erro!! por favor volte e digite o número da maneira pedida</p>";
